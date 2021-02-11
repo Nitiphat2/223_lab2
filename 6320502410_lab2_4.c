@@ -12,7 +12,7 @@ int main()
         {
             if(n == 5 || n == 15 || n == 25)
             {
-                printf("\(^_^)/");
+                printf("\\(^_^)/");
             }
             else
             {
@@ -23,7 +23,7 @@ int main()
         {
             if(n == 5 || n == 15 || n == 25)
             {
-                printf("\(*o*)/");
+                printf("\\(*o*)/");
             }
             else
             {
@@ -34,7 +34,7 @@ int main()
         {
             if(n == 5 || n == 15 || n == 25)
             {
-                printf("\(T_T)/");
+                printf("\\(T_T)/");
             }
             else
             {
@@ -48,7 +48,7 @@ int main()
         {
             if(n == 5 || n == 15 || n == 25)
             {
-                printf("\{@_@}/");
+                printf("\\{@_@}/");
             }
             else
             {
@@ -59,7 +59,7 @@ int main()
         {
             if(n == 5 || n == 15 || n == 25)
             {
-                printf("\{*v*}/");
+                printf("\\{*v*}/");
             }
             else
             {
@@ -70,7 +70,7 @@ int main()
         {
             if(n == 5 || n == 15 || n == 25)
             {
-                printf("\{x_x}/");
+                printf("\\{x_x}/");
             }
             else
             {
