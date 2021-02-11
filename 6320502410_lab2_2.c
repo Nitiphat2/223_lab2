@@ -13,10 +13,10 @@ int main()
         c1 = floor(pro);
         a = pro * 100;
         a = a%120;
-        if(a >= 60)
+        if(a >= 59)
         {
             pro = pro - c1 - 0.60;
-            sum = 199 + c1 + 1;
+            sum = 199 + c1 + 1 + pro;
             printf("%.2f",sum);
         }
         else
@@ -32,7 +32,7 @@ int main()
         c1 = floor(pro);
         a = pro * 100;
         a = a%120;
-        if(a >= 60)
+        if(a >= 59)
         {
             pro = pro - c1 - 0.60;
             sum = 299 + c1 + 1 + pro;
