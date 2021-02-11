@@ -23,11 +23,11 @@ int main()
         {
             if(n == 5 || n == 15 || n == 25)
             {
-                printf("\\(*0*)/");
+                printf("\\(*o*)/");
             }
             else
             {
-                printf("(*0*)");
+                printf("(*o*)");
             }
         }
         else if(a >= 83 && a <= 90)
