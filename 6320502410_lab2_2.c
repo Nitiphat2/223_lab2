@@ -15,7 +15,8 @@ int main()
         a = a%120;
         if(a >= 60)
         {
-            sum = 199 + c1 + 1;
+            pro = pro - c1 - 0.60;
+            sum = 199 + c1 + 1 + pro;
             printf("%.2f",sum);
         }
         else
