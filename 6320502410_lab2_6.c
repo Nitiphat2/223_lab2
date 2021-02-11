@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int n,i,j,k,o[1000];
+    scanf("%d",&n);
+    for(i=0;n>0;i++)
+    {
+        j = n %10;
+        switch(j)
+        {
+            case 0 : o[i] = 0; break;
+            case 1 : o[i] = 1; break;
+            case 2 : o[i] = 2; break;
+            case 3 : o[i] = 3; break;
+            case 4 : o[i] = 4; break;
+            case 5 : o[i] = 5; break;
+            case 6 : o[i] = 6; break;
+            case 7 : o[i] = 7; break;
+            case 8 : o[i] = 8; break;
+            case 9 : o[i] = 9; break;
+        }
+        n=n/10;
+    }
+    printf("f");
+}
