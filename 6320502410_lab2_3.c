@@ -14,7 +14,7 @@ int main()
         A = B;
         B =count;
     }
-    else if(B > C)
+    if(B > C)
     {
         count = B;
         B = C;
@@ -32,6 +32,12 @@ int main()
         B = C;
         C = count;
     }
+    if(A > B)
+    {
+        count = A;
+        A = B;
+        B = count;
+    }
     for(i=0; i<3; i++)
     {
         if(na[i] == 'A')
@@ -47,5 +53,5 @@ int main()
             num[i] = C;
         }
     }
-    printf("%d%d%d",num[0],num[1],num[2]);
+    printf("%d %d %d",num[0],num[1],num[2]);
 }
