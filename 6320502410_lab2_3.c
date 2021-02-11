@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int A,B,C,num[3],i,count;
-    scanf("%d%d%d",A,B,C);
+    int A,B,C,i,count,num[3];
+    scanf("%d%d%d",&A,&B,&C);
     char na[3];
     for(i = 0;i<3;i++)
     {
@@ -26,5 +26,20 @@ int main()
         B=C;
         C=count;
     }
-
+     for(i=0;i<3;i++)
+     {
+         if(na[i] == 'A')
+         {
+             num[i] = A;
+         }
+         else if(na[i] == 'B')
+         {
+             num[i] = B;
+         }
+         else if(na[i] == 'C')
+         {
+             num[i] = C;
+         }
+     }
+     printf("%d%d%d",num[0],num[1],num[2]);
 }
