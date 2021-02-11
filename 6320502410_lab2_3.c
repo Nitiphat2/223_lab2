@@ -32,7 +32,6 @@ int main()
         B = C;
         C = count;
     }
-    printf("%d%d%d",A,B,C);
     for(i=0; i<3; i++)
     {
         if(na[i] == 'A')
