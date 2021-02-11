@@ -8,38 +8,55 @@ int main()
     scanf("%f",&cost);
     if(c == 'A')
     {
-        cost = cost - 200;
-        pro = cost * 3;
-        c1 = floor(pro);
-        a = pro * 100;
-        while(a > 60)
+        if(cost >= 200)
         {
-            a = a % 60;
-            i++;
+            cost = cost - 200;
+            pro = cost * 3;
+            c1 = floor(pro);
+            a = pro * 100;
+            while(a > 60)
+            {
+                a = a % 60;
+                i++;
+            }
+            if(i = 1)
+            {
+                pro = pro - 0.60;
+            }
+            sum = 199 + i + pro;
+            printf("%.2f",sum);
         }
-        if(i = 1)
+        else
         {
-            pro = pro - 0.60;
+            sum = 199;
+            printf("%.2f",sum);
         }
-        sum = 199 + i + pro;
-        printf("%.2f",sum);
+
     }
     else if(c == 'B')
     {
-        cost = cost - 400;
-        pro = cost * 2;
-        c1 = floor(pro);
-        a = pro * 100;
-        while(a > 60)
+        if(cost >= 400)
         {
-            a = a % 60;
-            i++;
+            cost = cost - 400;
+            pro = cost * 2;
+            c1 = floor(pro);
+            a = pro * 100;
+            while(a > 60)
+            {
+                a = a % 60;
+                i++;
+            }
+            if(i = 1)
+            {
+                pro = pro - 0.60;
+            }
+            sum = 299 + i + pro;
+            printf("%.2f",sum);
         }
-        if(i = 1)
+        else
         {
-            pro = pro - 0.60;
+            sum = 299;
+            printf("%.2f",sum);
         }
-        sum = 299 + i + pro;
-        printf("%.2f",sum);
     }
 }
