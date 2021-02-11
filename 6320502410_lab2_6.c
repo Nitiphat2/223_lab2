@@ -21,9 +21,8 @@ int main()
         }
         n=n/10;
     }
-    for(;i>=0;)
+    for(i=i-1;i>=0;)
     {
-        i--;
         if(i>=0)
         {
         switch(o[i])
@@ -39,7 +38,8 @@ int main()
             case 8 : printf("Eight"); break;
             case 9 : printf("Nine"); break;
         }
-        if(i>0)
+        i--;
+        if(i>=0)
             printf("-");
         }
     }
