@@ -12,7 +12,7 @@ int main()
         {
             cost = cost - 200;
             pro = cost * 3;
-            c1 = pro;
+            c1 = (int)pro;
             a = pro * 100;
             while(a > 60)
             {
